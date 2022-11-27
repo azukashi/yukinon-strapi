@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "biodatas",
+  "info": {
+    "singularName": "biodata",
+    "pluralName": "biodatas",
+    "displayName": "Biodata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fanName": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string"
+    },
+    "debutDate": {
+      "type": "string"
+    },
+    "affilation": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "oshi": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "primaryLang": {
+      "type": "string"
+    },
+    "name": {
+      "type": "json"
+    },
+    "favorite": {
+      "type": "json"
+    },
+    "dislikes": {
+      "type": "json"
+    },
+    "fanartHashtags": {
+      "type": "json"
+    }
+  }
+}

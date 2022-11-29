@@ -5,7 +5,7 @@
     "singularName": "biodata",
     "pluralName": "biodatas",
     "displayName": "Biodata",
-    "description": ""
+    "description": "Biodata information about 猫乃ユキノ (Nekono Yukino)"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +16,39 @@
     }
   },
   "attributes": {
+    "name": {
+      "type": "json",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "nickname": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "fanName": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "gender": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "age": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -56,31 +88,7 @@
         }
       }
     },
-    "gender": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "oshi": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "nickname": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "age": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -90,14 +98,6 @@
     },
     "primaryLang": {
       "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "name": {
-      "type": "json",
       "pluginOptions": {
         "i18n": {
           "localized": true

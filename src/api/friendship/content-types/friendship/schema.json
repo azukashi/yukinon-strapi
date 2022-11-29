@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "friendships",
+  "info": {
+    "singularName": "friendship",
+    "pluralName": "friendships",
+    "displayName": "Friendship"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

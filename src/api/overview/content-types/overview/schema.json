@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "overviews",
+  "info": {
+    "singularName": "overview",
+    "pluralName": "overviews",
+    "displayName": "Overview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

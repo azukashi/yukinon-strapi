@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "histories",
+  "info": {
+    "singularName": "history",
+    "pluralName": "histories",
+    "displayName": "History"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "background": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "yearTwentyOne": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "fanarts",
+  "info": {
+    "singularName": "fanart",
+    "pluralName": "fanarts",
+    "displayName": "Fanart"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "arts": {
+      "type": "json"
+    }
+  }
+}
